@@ -1,0 +1,13 @@
+﻿table;grain;colonne;type;unite_ou_sens;manquants
+erp;produit;produit_id;int64;Identifiant fictif;0
+erp;produit;categorie;str;catégorie produit;0
+erp;produit;prix;float64;EUR/unité;0
+erp;produit;cout;float64;EUR/unité;0
+erp;produit;stock_initial;int64;unités;0
+liaison;produit-SKU;produit_id;int64;Identifiant fictif;0
+liaison;produit-SKU;sku;str;identifiant web fictif;0
+web;ligne de commande;ligne_id;int64;Identifiant fictif;0
+web;ligne de commande;sku;str;identifiant web fictif;0
+web;ligne de commande;date;str;ISO yyyy-MM-dd;0
+web;ligne de commande;quantite;int64;unités;0
+web;ligne de commande;remise;float64;fraction, 0.10 = 10 %;0
